@@ -120,7 +120,7 @@ TABLE
 table {
   width: 100%;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 1em;
   border-collapse: collapse;
 }
 th {
@@ -142,7 +142,7 @@ td {
   border: 1px solid #ddd;
 }
 tbody tr:nth-child(odd) {
-  background-color: #ccc;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* *****************************************************************
