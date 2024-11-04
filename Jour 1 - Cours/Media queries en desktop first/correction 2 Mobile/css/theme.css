@@ -1,0 +1,48 @@
+/* *****************************************************************
+ VERSION MOBILE
+***************************************************************** */
+@media screen and (max-width: 780px) and (min-width: 0px) {
+  article {
+    width: 100%;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* *****************************************************************
+ VERSION TABLETTE
+***************************************************************** */
+@media screen and (max-width: 1200px) and (min-width: 780px) {
+  main {
+    flex-wrap: wrap;
+  }
+
+  article {
+    width: 50%;
+  }
+}
+/* *****************************************************************
+ MAIN
+***************************************************************** */
+
+.page {
+  margin: 2em;
+  background-color: #fff;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+}
+
+header,
+footer {
+  padding: 2rem;
+  background-color: silver;
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
