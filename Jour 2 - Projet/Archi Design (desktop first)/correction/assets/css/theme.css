@@ -320,3 +320,14 @@ header {
 /*Petit Mobile*/
 @media screen and (max-width: 630px) {
 }
+/*REALISATIONS*/
+.h1Rea {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #cb8606;
+}
+.box {
+  display: flex;
+  
+  
+}
